@@ -4,7 +4,7 @@ const CONFIG = Object.freeze({
   SPREADSHEET_ID: 'REPLACE_WITH_YOUR_SPREADSHEET_ID',
   SHEET_NAME: '受付台帳',
   OWNER_EMAIL: 'owner@example.com',
-  SEND_EMAILS: false // 初期状態は送信しない。実運用時だけ true に変更。
+  SEND_EMAILS: false // デモモード（送信なし）。メールテスト・実運用では自分の非公開コピーでのみ true にする。
 });
 const HEADERS = ['受付日時', '名前', '希望日時', 'コース', '連絡先メール', 'ステータス'];
 
